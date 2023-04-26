@@ -9,6 +9,10 @@ public class Bicycle extends Transport {
 		updateTyre();
 	}
 	public void updateTyre() {
-		System.out.println("Меняем покрышку");
+			int i = 0;
+			while (i < getWheelsCount()){
+				i++;
+			System.out.println("Меняем покрышку");
+		}
 	}
 }
